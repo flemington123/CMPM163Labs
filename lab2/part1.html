@@ -24,8 +24,9 @@
             var cube1 = new THREE.Mesh(geometry1, material1);
             scene.add(cube1);
             cube1.position.x =20;
-            var axis = new THREE.Vector3(0,1,0);
-            //cube1.rotateOnAxis(axis,Math.PI/8);
+            var axis = new THREE.Vector3(0,-5,5);
+            cube1.rotateOnAxis(axis,Math.PI/8);
+            geometry1.scale(0.5,0.5,0.5);
 
             var geometry2 = new THREE.BoxGeometry(15,5,5);
             var material2 = new THREE.MeshBasicMaterial( {color: 0x4B0082} );
@@ -43,16 +44,17 @@
             camera.position.x = -40;
            
             
+            
             let t0 = new Date()
             function animate() {
                 geometry1.translate(0.5,-0.5,0);
-                //geometry1.scale(2,1,1);
+                
                 geometry1.rotateX(0.01);
                 geometry1.rotateY(0.01);
                 geometry1.rotateZ(0.01);
                 geometry1.translate(0,0,0);
                 //geometry1.scale(-1,1,1);
-                
+               
                 geometry2.rotateX(-0.01);
                 geometry2.rotateY(-0.01);
                 geometry2.rotateZ(-0.01);
