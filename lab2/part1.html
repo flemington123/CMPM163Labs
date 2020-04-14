@@ -24,6 +24,8 @@
             var cube1 = new THREE.Mesh(geometry1, material1);
             scene.add(cube1);
             cube1.position.x =20;
+            var axis = new THREE.Vector3(0,1,0);
+            //cube1.rotateOnAxis(axis,Math.PI/8);
 
             var geometry2 = new THREE.BoxGeometry(15,5,5);
             var material2 = new THREE.MeshBasicMaterial( {color: 0x4B0082} );
@@ -35,30 +37,48 @@
             var material3 = new THREE.MeshBasicMaterial( {color: 0x00FA9A} );
             var cube3 = new THREE.Mesh(geometry3, material3);
             scene.add(cube3);
-            camera.position.z = 500; //this moves the camera towards the viewer
+
             
+            camera.position.z = 150; //this moves the camera towards the viewer
+            camera.position.x = -40;
            
- 
+            
+            let t0 = new Date()
             function animate() {
-                
+                geometry1.translate(0.5,-0.5,0);
+                //geometry1.scale(2,1,1);
                 geometry1.rotateX(0.01);
                 geometry1.rotateY(0.01);
                 geometry1.rotateZ(0.01);
-                geometry1.translate(1,1,0);
+                geometry1.translate(0,0,0);
+                //geometry1.scale(-1,1,1);
 
                 geometry2.rotateX(-0.01);
                 geometry2.rotateY(-0.01);
                 geometry2.rotateZ(-0.01);
 
-
+                geometry3.translate(0.5,0.5,0);
                 geometry3.rotateX(0.01);
                 geometry3.rotateY(-0.01);
                 geometry3.rotateZ(-0.01);
-
+                geometry3.translate(0,0,0);
                 //camera.position.x = camera.position.x + 0.1;
+                
+   
+                //controls.update();
+                let t1 = new Date(); //本次时间
+                let t = t1 - t0; // 时间差
+ 
+                //camera.translateX(0.001 * t/3) //沿着Y轴旋转着从大到小
+ 
+                //camera.translateZ(0.001 * t/3) //沿着Z轴由近到远
+ 
+                camera.rotateY(0.0001 * t/3); //物体的均匀从左到又平移可以用相机旋转Y轴来实现
+                camera.lookAt(scene.position); 
 
                 requestAnimationFrame(animate);
                 renderer.render(scene, camera);
+                
                 
                 //geometry.rotateX( angle in radians );
                 //geometry.rotateY( angle in radians );
