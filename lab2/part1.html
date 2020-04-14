@@ -52,7 +52,7 @@
                 geometry1.rotateZ(0.01);
                 geometry1.translate(0,0,0);
                 //geometry1.scale(-1,1,1);
-
+                
                 geometry2.rotateX(-0.01);
                 geometry2.rotateY(-0.01);
                 geometry2.rotateZ(-0.01);
@@ -66,14 +66,10 @@
                 
    
                 //controls.update();
-                let t1 = new Date(); //本次时间
-                let t = t1 - t0; // 时间差
+                let t1 = new Date(); 
+                let t = t1 - t0;  
  
-                //camera.translateX(0.001 * t/3) //沿着Y轴旋转着从大到小
- 
-                //camera.translateZ(0.001 * t/3) //沿着Z轴由近到远
- 
-                camera.rotateY(0.0001 * t/3); //物体的均匀从左到又平移可以用相机旋转Y轴来实现
+                camera.rotateY(0.0001 * t/3); 
                 camera.lookAt(scene.position); 
 
                 requestAnimationFrame(animate);
