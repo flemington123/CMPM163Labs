@@ -20,6 +20,7 @@
             document.body.appendChild(renderer.domElement);
             camera.position.z = 100;
             camera.position.x = -20;
+            camera.position.y = 40;
 
             var leftlight = new THREE.PointLight(0xffffff, 2, 1000);
             leftlight.position.set(-50, 0, 0);
@@ -46,7 +47,13 @@
 
             //books
             loader.load('books.glb', function (gltf) {
-            scene.add(gltf.scene);
+                gltf.scene.scale.x = 6;
+                gltf.scene.scale.y = 6;
+                gltf.scene.scale.z = 6;
+                gltf.scene.position.x = -30;
+                gltf.scene.position.z = -30;
+                gltf.scene.position.y = 20;
+                scene.add(gltf.scene);
             }, function (xhr) {
             console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
             }, function (error) {
