@@ -1,11 +1,11 @@
 # CMPM163Labs
-Lab2
+# Lab2
 
 Part1 short video: https://drive.google.com/file/d/1ovDRIraY6janxNIbhTh6pnXfc3croQoM/view?usp=sharing
 
 Part2 screen shoot: <img src ="Screenshoot/Xuqi Lab2.png">
 
-Lab3
+# Lab3
 
 Short Video: https://drive.google.com/file/d/1wH6FDm3047eWeRMtoD2EOPIwo8zAxcaG/view?usp=sharing
 
@@ -17,8 +17,8 @@ TopLeft: Also the tutorial one with renderer. Basic material and color.
 
 TopRight: My own renderer cube. In the fragment shader, I changed the color from two to three. By modifying the code, I made them work.
 
-Lab4
-Question:
+# Lab4
+Questions:
 1. x = 8u while u = x/8.
 2. y = 8 - 8v.
 3. As I conut by previous two formula, (0.375, 0.25) is white.
