@@ -47,7 +47,7 @@ First, I made two particle shinning at the back of the car to pretend the fire o
 # Lab6
 
 Part 1
-
+Whole Project: <img src ="Screenshoot/Lab6WholeProject.png">
 Point light: The green one is point light which light the objects around it in a limit range. The change of position and range will influce the light in scene while the angle will not.
 
 Spotlight: The spot light is the yellow one. As its name said, it act similar with the real spot light. The change of angle, position, range will influence the light area. 
@@ -56,7 +56,9 @@ Directional light: The direction light in my scene is red. The direction light i
 
 Area light: This one only work on baked. The blue light is my area light in scene. It lights the one side of itself.
 
+My Work: <img src ="Screenshoot/Lab6MaterialObject.png">
 Material: The real object is tissue box with tissue. To made it, I tried to create the material ball first. Then I changed the shader type from standard to standard with specualr. Because I wanted to simulate the reflection light by using specular. Furthermore, I adjusted the smoothness to make the reflection similar with the real one, and made it looks like a shinny paper plastic. Also, I changed the Albedo color to the right one. In the end, I added an Albedo texture to make some decoration. 
+Real Stuff: <img src ="Screenshoot/Lab6RealObject.jpg">
 
 Texture: I downloaded the textrue pictures from the google drive with their related normal map. The first one is rock texture, and the another one is brick texture.
 
