@@ -39,6 +39,7 @@ Cube 5: My own renderer 4x4 cube. Using only one texture 172.jpg and changing th
 
 # Lab5
 
+Part 1
 Shortvideo: https://drive.google.com/file/d/1M31i1m3eKF0L_DUCtnWEZczvNdbPfMof/view?usp=sharing.
 
 First, I made two particle shinning at the back of the car to pretend the fire of accelerator. Then made a new metal material for the track. Let it reflects the light from sun. Then did a little change to the check point and use new particle system to made a wall. Furthermore, I putted some crash objects on the ground for player to get crash with it.
