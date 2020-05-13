@@ -64,3 +64,11 @@ Texture: I downloaded the textrue pictures from the google drive with their rela
 
 Skybox: I found this skybox from the Unity Store, and I thought this one is coool then I just downloaded it.
 
+Part 2
+
+The screenshot of texture: <img src ="Screenshoot/Part2Texture.png">
+
+My shadertoy link: https://www.shadertoy.com/view/tdSBzR
+
+Some fun project: https://www.shadertoy.com/view/3sXyRN
+
