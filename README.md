@@ -64,3 +64,17 @@ Texture: I downloaded the textrue pictures from the google drive with their rela
 
 Skybox: I found this skybox from the Unity Store, and I thought this one is coool then I just downloaded it.
 
+Part 2
+
+The screenshot of texture: <img src ="Screenshoot/Part2Texture.png">
+
+My shadertoy link: https://www.shadertoy.com/view/tdSBzR
+
+Some fun project: https://www.shadertoy.com/view/3sXyRN
+
+# Lab7
+Short Video: https://drive.google.com/file/d/1GHMXWujL2NJqTj8yRBu4XDxk3H0C0DOH/view?usp=sharing.
+
+In my scene, I made a mountain which followed the instruction. To made it looks better, I adjusted the shader and add the texture. The water wave was also made by the instruction. I just putted the plane under it to show the water body. Also, the cloud which made by shader is using the same shader without texture. The beach under the mountain have sand texture map and norm map. In the end, I changed the skybox and adjusted the directional light.
+
+For partner work, we didn't finish that part in time.
