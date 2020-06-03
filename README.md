@@ -78,3 +78,15 @@ Short Video: https://drive.google.com/file/d/1GHMXWujL2NJqTj8yRBu4XDxk3H0C0DOH/v
 In my scene, I made a mountain which followed the instruction. To made it looks better, I adjusted the shader and add the texture. The water wave was also made by the instruction. I just putted the plane under it to show the water body. Also, the cloud which made by shader is using the same shader without texture. The beach under the mountain have sand texture map and norm map. In the end, I changed the skybox and adjusted the directional light.
 
 For partner work, we didn't finish that part in time.
+
+# Lab8
+The screenshot of the city based on tutorial: <img src ="Screenshoot/lab8TutorialCity.png">
+
+This is my own city: <img src ="Screenshoot/lab8MyOwnCity.png">
+
+And this is my inspiration city: <img src ="Screenshoot/lab8Inspiration.png">
+
+Actually I didn't make lots changes here. I just tried to add the street, and made the grid, then made the wall to simulate the wall from picture, slightly changed the light to make it more bright. But there are still lots of tecnical problems, so that's my best.
+
+Partner:
+Unfortunately I didn't find my partner in the discord. I guess he didn't change his nickname. By the way, I found there is a guy who have the same name with me in the channel, so my partner might go to the wrong way.
