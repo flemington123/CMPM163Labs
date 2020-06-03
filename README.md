@@ -90,3 +90,11 @@ Actually I didn't make lots changes here. I just tried to add the street, and ma
 
 Partner:
 Unfortunately I didn't find my partner in the discord. I guess he didn't change his nickname. By the way, I found there is a guy who have the same name with me in the channel, so my partner might go to the wrong way.
+
+# Lab9
+
+This is tutorial work: <img src ="Screenshoot/lab9Tutorial.png">
+
+This is my own work:  <img src ="Screenshoot/lab9OwnWork.png">
+
+I just did not much change on it. My rule is "FF+[-F-F-F+F]-[-F+F+F+F]" which turn to one side and then hugely back to another side.
